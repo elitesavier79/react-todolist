@@ -65,7 +65,6 @@ html {
   font-size: 3.6rem;
   font-family: "homemade Apple", sans-serif;
   text-transform: lowercase;
-
 }
 
 .header-btn {
@@ -86,8 +85,6 @@ html {
   text-shadow: 1px 1px 2px var(--hitam);
 }
 
-
-
 .add {
   padding: 16px;
 }
@@ -98,15 +95,15 @@ html {
 }
 
 .add-input {
-   background: unset;
-   border:unset;
-   padding: 0 64px;
-   flex:1;
-   border-bottom: 1px solid var(--merah);
-   ouline:unset;
-   font-family: "homemade Apple", sans-serif;
-   font-size:16px;
-   text-transform: lowercase;
+  background: unset;
+  border: unset;
+  padding: 0 64px;
+  flex: 1;
+  border-bottom: 1px solid var(--merah);
+  ouline: unset;
+  font-family: "homemade Apple", sans-serif;
+  font-size: 16px;
+  text-transform: lowercase;
 }
 
 .add-btn {
@@ -114,34 +111,34 @@ html {
   font-family: "bungee", sans-serif;
   padding: 16px;
   padding-right: unset;
-  cursor: pointer;background: unset;
+  cursor: pointer;
+  background: unset;
   background: unset;
   border: unset;
   outline: unset;
-
 }
 
 .add-btn.main-black-color:active {
   text-shadow: 1px 1px 2px var(--hitam);
 }
 
-.todos{
+.todos {
   display: flex;
   flex-direction: column;
 }
 .todo {
   position: relative;
-  flex:1 0 auto;
+  flex: 1 0 auto;
   text-align: center;
   min-height: 34px;
-  margin:16px 0 0;
+  margin: 16px 0 0;
   font-family: "homemade Apple", sans-serif;
-  font-size:24px;
+  font-size: 24px;
   border-bottom: 1px solid var(--merah);
 }
 
 .todo-text {
   position: absolute;
-  left:30%;
+  left: 30%;
   transition: translate(-50%);
 }
