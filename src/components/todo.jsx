@@ -1,25 +1,16 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Todo = () => {
+const Todo = props => {
   return (
-    <section className="todos">
-      <div className="todo">
-        <span className="todo-text">learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">learning React</span>
-      </div>
-    </section>
+    <div className="todo">
+      <span className="todo-text">{props.text}</span>
+    </div>
   );
+};
+
+Todo.PropTypes = {
+  text: PropTypes.string.isRequired
 };
 
 export default Todo;
