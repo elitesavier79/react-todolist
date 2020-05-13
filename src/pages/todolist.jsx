@@ -12,10 +12,16 @@ const Todolist = () => {
     { text: "leaning styling in react" }
   ]);
 
+  const addTodo = value => {
+    const addedTodo = [...todos, { text: value }];
+
+    setTodos(addedTodo);
+  };
+
   return (
     <Paper>
       <Header />
-      <Todoform />
+      <Todoform addTodo={addTodo} />
       <Todos todos={todos} />
     </Paper>
   );
