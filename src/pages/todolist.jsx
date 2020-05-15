@@ -12,15 +12,19 @@ const Todolist = () => {
     { text: "leaning styling in react" }
   ]);
 
+  const [showAdd, setShowAdd] = useState(false);
+
   const addTodo = value => {
     const addedTodo = [...todos, { text: value }];
 
     setTodos(addedTodo);
   };
 
+  const showAddToggle = () => setShowAdd(!showAdd);
+
   return (
     <Paper>
-      <Header />
+      <Header showAddToggle={showAddToggle} />
       <Todoform addTodo={addTodo} />
       <Todos todos={todos} />
     </Paper>
