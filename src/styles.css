@@ -125,13 +125,13 @@ html {
 .todos {
   display: flex;
   flex-direction: column;
-  min-height: 300px;
+  min-height: 400px;
 }
 .todo {
   position: relative;
   flex: 1 0 auto;
   text-align: center;
-  max-height: 34px;
+  max-height: 32px;
   margin: 16px 0 0;
   font-family: "homemade Apple", sans-serif;
   font-size: 24px;
