@@ -145,3 +145,15 @@ html {
   left: 0%;
   transition: translate(-50%);
 }
+
+.todos-text {
+  font-family: "homemade Apple", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 16px;
+}
+
+.span-text {
+  font-family: "bungee", sans-serif;
+  font-size: 24px;
+}
