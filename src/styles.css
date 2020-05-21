@@ -7,22 +7,6 @@
   --hitam: #484848;
 }
 
-.main-red-color {
-  color: var(--merah);
-}
-
-.main-black-color {
-  color: var(--hitam);
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
 html {
   font-size: 10px;
 }
@@ -74,25 +58,6 @@ html {
   font-size: 3.6rem;
   font-family: "homemade Apple", sans-serif;
   text-transform: lowercase;
-}
-
-.header-btn {
-  width: 25%;
-  font-size: 1.8rem;
-  font-family: "bungee", sans-serif;
-  padding: 16px;
-  cursor: pointer;
-  background: unset;
-  border: unset;
-  outline: unset;
-}
-
-.header-btn.main-red-color:active {
-  text-shadow: 1px 1px 2px var(--merah);
-}
-
-.header-btn.main-black-color:active {
-  text-shadow: 1px 1px 2px var(--hitam);
 }
 
 .add {
