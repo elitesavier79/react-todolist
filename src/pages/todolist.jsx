@@ -5,6 +5,8 @@ import Header from "../components/headers/header";
 import Todoform from "../components/todoform/todoform";
 import Todos from "../components/todos/todos";
 
+import Container from "../layout/container";
+
 const Todolist = () => {
   const [todos, setTodos] = useState([
     { text: "leaning react", isCompleted: false },
@@ -34,7 +36,7 @@ const Todolist = () => {
   console.log("todos", todos);
 
   return (
-    <Paper>
+    /*<Paper>
       <Header
         showAddToggle={showAddToggle}
         showAdd={showAdd}
@@ -42,6 +44,22 @@ const Todolist = () => {
       />
       <Todoform addTodo={addTodo} showAdd={showAdd} />
       <Todos todos={todos} completeTodo={completeTodo} />
+    </Paper>*/
+
+    <Paper>
+      <Container
+        FlexDirection="column"
+        justifyContent="space-between"
+        height="100%"
+      >
+        <Header
+          showAddToggle={showAddToggle}
+          showAdd={showAdd}
+          clearTodos={clearTodos}
+        />
+        <Todoform addTodo={addTodo} showAdd={showAdd} />
+        <Todos todos={todos} completeTodo={completeTodo} />
+      </Container>
     </Paper>
   );
 };
