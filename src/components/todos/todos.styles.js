@@ -1,11 +1,11 @@
 import { css } from "@emotion/core";
 
-export const todos = () =>
+/*export const todos = () =>
   css`
     display: flex;
     flex-direction: column;
     min-height: 400px;
-  `;
+  `;*/
 
 export const todosText = () =>
   css`
