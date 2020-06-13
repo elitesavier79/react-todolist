@@ -1,5 +1,5 @@
-import react from "react";
-import styled from "@emotion/styled";
+import React from "react";
+import Styled from "@emotion/styled";
 import PropTypes from "prop-types";
 import { withTheme } from "emotion-theming";
 
@@ -55,4 +55,4 @@ class Button extends React.Component {
   };
 }
 
-export default withtheme(Button);
+export default withTheme(Button);
