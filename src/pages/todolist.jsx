@@ -6,7 +6,8 @@ import Paper from "../components/paper/paperClass";
 //import Header from "../components/headers/headerNoJSX";
 import Header from "../components/headers/headerClass";
 
-import Todoform from "../components/todoform/todoform";
+//import Todoform from "../components/todoform/todoform";
+import Todoform from "../components/todoform/todoformClass";
 import Todos from "../components/todos/todos";
 
 import Container from "../layout/container";
