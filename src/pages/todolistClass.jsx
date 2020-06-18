@@ -17,7 +17,7 @@ class Todolist extends React.Component {
   };
 
   addTodo = value => {
-    const { todos } = this.props;
+    const { todos } = this.state;
 
     if (todos.length < 8) {
       const addedTodo = [...todos, { text: value, isCompleted: false }];
@@ -71,3 +71,5 @@ class Todolist extends React.Component {
     );
   }
 }
+
+export default Todolist;
