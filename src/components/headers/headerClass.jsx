@@ -4,8 +4,8 @@ import styled from "@emotion/styled";
 import { withTheme } from "emotion-theming";
 
 import Button from "../button/buttonClass";
-import Container from "../../layout/container";
-import Item from "../../layout/item";
+import Container from "../../layout/containerClass";
+import Item from "../../layout/itemClass";
 
 const StyledH1 = styled.h1`
   margin-top: 30px;
