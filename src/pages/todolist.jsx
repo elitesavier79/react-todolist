@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import useStateWithLocalStorage from "../hooks/useStateWithLocalStorage";
 
-//import Paper from "../components/paper/paper";
-import Paper from "../components/paper/paperClass";
-//import Header from "../components/headers/header";
+import Paper from "../components/paper/paper";
+//import Paper from "../components/paper/paperClass";
+import Header from "../components/headers/header";
 //import Header from "../components/headers/headerNoJSX";
-import Header from "../components/headers/headerClass";
+//import Header from "../components/headers/headerClass";
 
-//import Todoform from "../components/todoform/todoform";
-import Todoform from "../components/todoform/todoformClass";
-//import Todos from "../components/todos/todos";
-import Todos from "../components/todos/todosClass";
+import Todoform from "../components/todoform/todoform";
+//import Todoform from "../components/todoform/todoformClass";
+import Todos from "../components/todos/todos";
+//import Todos from "../components/todos/todosClass";
 
 import Container from "../layout/container";
 
