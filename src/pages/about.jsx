@@ -1,7 +1,6 @@
 import React from "react";
 import Paper from "../components/paper/paper";
 import Container from "../layout/container";
-import { Link } from "react-router-dom";
 import AboutContent from "../components/aboutContent/aboutcontent";
 
 const About = () => {
