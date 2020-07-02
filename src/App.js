@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./styles.css";
 import { ThemeProvider } from "emotion-theming";
 
-import Todolist from "./pages/todolist";
-//import Todolist from "./pages/todolistClass";
+//import Todolist from "./pages/todolist";
+import Todolist from "./pages/todolistClass";
 import About from "./pages/about";
 
 const theme = {
